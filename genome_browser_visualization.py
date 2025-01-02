@@ -8,7 +8,7 @@ import matplotlib.image as mplimg
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--outputFile','-o',default='Kothari_Yashesha_BME163_Assignment_Final.png',type=str,action='store',help='output file goes here')
+parser.add_argument('--outputFile','-o',default='genome_visualization.png',type=str,action='store',help='output file goes here')
 parser.add_argument('--inputFile','-i',default='/path/toyour/data',type=str,action='store',help='input file goes here')
 parser.add_argument('--outTextFile','-t',default='Lecture4.data',type=str,action='store',help='output file goes here')
 
